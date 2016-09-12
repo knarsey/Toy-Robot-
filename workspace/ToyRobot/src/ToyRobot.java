@@ -26,9 +26,8 @@ public class ToyRobot {
 		  * Validates whether the command 'PLACE' has being entered or not.
 		  */
 		 while(!placeCommand.contains("place") && !placeCommand.contains("PLACE")){
-			 
-			 System.out.println("The command 'PLACE' must be entered to begin.");
-			 placeCommand = kb.nextLine();
+		       System.out.println("The command 'PLACE' must be entered to begin.");
+		       placeCommand = kb.nextLine();
 		 }		
 	}
 	
